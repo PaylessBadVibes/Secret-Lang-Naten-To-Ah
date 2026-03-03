@@ -28,7 +28,6 @@ body {
     overflow-x: hidden;
 }
 
-/* Hacking Intro Overlay */
 .hacking-overlay {
     position: fixed;
     top: 0;
@@ -136,7 +135,6 @@ body {
     transform: scale(1.05);
 }
 
-/* Progress Bar */
 .progress-bar {
     position: fixed;
     top: 0;
@@ -154,7 +152,6 @@ body {
     transition: width 0.5s ease;
 }
 
-/* Container */
 .container {
     width: 100%;
     max-width: 600px;
@@ -162,7 +159,6 @@ body {
     position: relative;
 }
 
-/* Pages */
 .page {
     display: none;
 }
@@ -187,7 +183,6 @@ body {
     }
 }
 
-/* Content */
 .content {
     text-align: center;
     width: 100%;
@@ -210,8 +205,6 @@ body {
     }
 }
 
-
-/* Typography */
 .title {
     font-family: 'Cormorant Garamond', serif;
     font-size: 4rem;
@@ -264,7 +257,6 @@ body {
     margin-bottom: 35px;
 }
 
-/* Divider */
 .divider {
     width: 40px;
     height: 1px;
@@ -273,7 +265,6 @@ body {
     opacity: 0.5;
 }
 
-/* Page Number */
 .page-number {
     position: fixed;
     bottom: 30px;
@@ -284,7 +275,6 @@ body {
     letter-spacing: 2px;
 }
 
-/* Buttons */
 .btn {
     display: inline-flex;
     align-items: center;
@@ -371,7 +361,6 @@ body {
     color: var(--text);
 }
 
-/* Pulse animation */
 .pulse {
     animation: pulseBtn 2s ease-in-out infinite;
 }
@@ -381,7 +370,6 @@ body {
     50% { box-shadow: 0 0 0 10px rgba(167, 146, 119, 0); }
 }
 
-/* Navigation Row */
 .nav-row {
     display: flex;
     gap: 15px;
@@ -394,7 +382,6 @@ body {
     margin-top: 30px;
 }
 
-/* Details Section */
 .details {
     display: flex;
     flex-direction: column;
@@ -433,7 +420,6 @@ body {
     font-weight: 500;
 }
 
-/* Answer Section */
 .answer-section {
     display: flex;
     flex-direction: column;
@@ -442,7 +428,6 @@ body {
     margin-bottom: 25px;
 }
 
-/* Success Overlay */
 .success-overlay {
     display: none;
     position: fixed;
@@ -466,7 +451,6 @@ body {
     padding: 40px;
 }
 
-
 .success-text {
     font-family: 'Cormorant Garamond', serif;
     font-size: 3rem;
@@ -488,7 +472,6 @@ body {
     color: var(--primary);
 }
 
-/* Confetti */
 .confetti {
     position: fixed;
     pointer-events: none;
@@ -514,7 +497,6 @@ body {
     }
 }
 
-/* Responsive */
 @media (max-width: 600px) {
     .container {
         padding: 30px 20px;
@@ -549,7 +531,4 @@ body {
     .success-text {
         font-size: 2.2rem;
     }
-    
 }
-
-/* Cat paw cursor effect */
